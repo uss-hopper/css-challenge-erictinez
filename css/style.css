@@ -62,5 +62,169 @@ body { width: 100%;}
 * * Attribute Selectors
 ******************************************************/
 
+body {
+	font-family: monospace, "Courier New";
+}
+
+section {
+	padding: 2.75rem 0;
+}
+
+/*****************************************************
+* Header
+******************************************************/
+header {
+	background-color: #333;
+	color: lime;
+}
+
+header h1{
+	display: inline-block;
+	margin-right: 2rem;
+	font-size: 2.5rem;
+}
+
+
+/****************************************************
+* Welcome section
+****************************************************/
+img[alt ="welcome to my homepage"] {
+	display: block;
+	margin: 0 auto 2rem;
+}
+
+.instructions-wrapper {
+	display: flex;
+	align-items: flex-start;
+	border: 3px solid black;
+	padding: 20px;
+
+}
+
+.instructions-wrapper img {
+	width: 256px;
+}
+
+.instructions-content {
+	flex: 1;
+	padding-right: 2rem;
+}
+
+.instructions-content h2 {
+	margin-top: 0;
+}
+
+/*************************************************
+*About Me Section
+**************************************************/
+section.about-me {
+	background-color: blue;
+	color: #fff;
+}
+
+.about-me img {
+	width: 300px;
+	float: left;
+	margin-right: 2rem;
+	border: solid white;
+}
+
+.about-me p span {
+	color: yellow;
+	font-style: italic;
+}
+
+/*************************************************
+*About Me Section
+**************************************************/
+section.about-me {
+	background-color: blue;
+	color: #fff;
+
+}
+
+.about-me img {
+	width: 300px;
+	float: left;
+	margin-right: 2rem;
+	border: solid white;
+
+}
+
+.about-me p span {
+	color: yellow;
+	font-style: italic;
+}
+/***
+*skillz with a z
+***/
+
+section:nth-child(4) h2 {
+	text-align: right;
+	margin-top: 0;
+}
+
+section:nth-child(4) table{
+	width: 100%;
+	color: lime;
+}
+
+
+section:nth-child(4) table td,
+section:nth-child(4) table th {
+	background-color: #333;
+	padding: 10px;
+	text-align: left;
+}
+
+/*************
+* contactz from
+**************/
+div.sfooter-content section:last-child{
+	background-color: #333;
+}
+
+.form-wrapper{
+	background-color: darkgreen;
+	color: lime;
+	padding: 20px;
+}
+
+label {
+	display: block;
+	margin: 15px 0 5px 0;
+}
+
+input, textarea {
+	width: 30%;
+	padding: 8px;
+
+}
+
+button {
+	background-color: lime;
+	padding: 10px 31px;
+	font-weight: bold;
+	font-size: 1rem;
+	border: none;
+}
+
+form div:nth-child(4){
+	margin-bottom: 15px;
+}
+
+.form-wrapper h2{
+	margin-top: 0;
+}
+
+/**************************************
+* foooooooter
+***************************************/
+footer {
+	background-color: black;
+	color: whitesmoke;
+	text-align: center;
+}
+
 
 
