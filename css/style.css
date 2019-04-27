@@ -134,27 +134,6 @@ section.about-me {
 	font-style: italic;
 }
 
-/*************************************************
-*About Me Section
-**************************************************/
-section.about-me {
-	background-color: blue;
-	color: #fff;
-
-}
-
-.about-me img {
-	width: 300px;
-	float: left;
-	margin-right: 2rem;
-	border: solid white;
-
-}
-
-.about-me p span {
-	color: yellow;
-	font-style: italic;
-}
 /***
 *skillz with a z
 ***/
