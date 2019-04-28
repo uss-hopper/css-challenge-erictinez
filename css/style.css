@@ -70,9 +70,9 @@ section {
 	padding: 2.75rem 0;
 }
 
-/*****************************************************
+/*
 * Header
-******************************************************/
+*/
 header {
 	background-color: #333;
 	color: lime;
@@ -85,9 +85,9 @@ header h1{
 }
 
 
-/****************************************************
-* Welcome section
-****************************************************/
+/**
+* Welcome
+*/
 img[alt ="welcome to my homepage"] {
 	display: block;
 	margin: 0 auto 2rem;
@@ -114,9 +114,9 @@ img[alt ="welcome to my homepage"] {
 	margin-top: 0;
 }
 
-/*************************************************
-*About Me Section
-**************************************************/
+/**
+*About Me
+*/
 section.about-me {
 	background-color: blue;
 	color: #fff;
@@ -135,15 +135,15 @@ section.about-me {
 }
 
 /***
-*skillz with a z
+*skills
 ***/
 
 
 }
 
-/*************
-* contactz from
-**************/
+/**
+* contact from
+*/
 
 
 .form-wrapper{
@@ -173,9 +173,9 @@ button {
 
 
 
-/**************************************
-* foooooooter
-***************************************/
+/**
+* footer
+*/
 footer {
 	background-color: black;
 	color: whitesmoke;
